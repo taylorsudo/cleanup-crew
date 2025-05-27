@@ -1,0 +1,65 @@
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Uu]serSettings/
+[Mm]emoryCaptures/
+[Ll]ogs/
+
+# Unity configuration and metadata
+/ignore.conf
+*.private
+*.private.meta
+
+# NOTE: The following were regexes not supported by .gitignore; approximate or remove manually
+# ^*.private.[0-9]+$
+# ^*.private.[0-9]+.meta$
+
+# Asset Store and version control plugins
+**/[Aa]ssets/[Aa]ssetStoreTools/
+**/[Aa]ssets/[Pp]lugins/PlasticSCM*/
+
+# IDE and build artifacts
+.vs/
+.gradle/
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Misc build and crash files
+sysinfo.txt
+*.apk
+*.unitypackage
+.collabignore
+crashlytics-build.properties
+
+# Addressables and StreamingAssets
+**/[Aa]ssets/AddressableAssetsData/*/*.bin*
+**/[Aa]ssets/StreamingAssets/aa.meta
+**/[Aa]ssets/StreamingAssets/*/aa/*
+
+# OS generated files
+.DS_Store*
+Thumbs.db
+Desktop.ini
+
+# Unity sync marker
+~UnityDirMonSyncFile~*

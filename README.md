@@ -1,2 +1,2 @@
 # cleanup-crew
-COOL GROUP DECO3009
+Cool Group's submission for DECO3009

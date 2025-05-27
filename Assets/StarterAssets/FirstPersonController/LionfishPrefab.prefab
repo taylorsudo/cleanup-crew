@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3261514178369866576
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 83c78ede416834d84b4f060978574b81, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 83c78ede416834d84b4f060978574b81, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 83c78ede416834d84b4f060978574b81, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 83c78ede416834d84b4f060978574b81, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.118361235
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 83c78ede416834d84b4f060978574b81, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.21001506
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 83c78ede416834d84b4f060978574b81, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.22
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 83c78ede416834d84b4f060978574b81, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 83c78ede416834d84b4f060978574b81, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 83c78ede416834d84b4f060978574b81, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 83c78ede416834d84b4f060978574b81, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 83c78ede416834d84b4f060978574b81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 83c78ede416834d84b4f060978574b81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 83c78ede416834d84b4f060978574b81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 83c78ede416834d84b4f060978574b81, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 83c78ede416834d84b4f060978574b81, type: 3}
+      propertyPath: m_Name
+      value: LionfishPrefab
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: 65702495048144492, guid: 83c78ede416834d84b4f060978574b81, type: 3}
+    - {fileID: -8700617353114198275, guid: 83c78ede416834d84b4f060978574b81, type: 3}
+    - {fileID: 2654713335656134247, guid: 83c78ede416834d84b4f060978574b81, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 83c78ede416834d84b4f060978574b81, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8460422904288240430}
+  m_SourcePrefab: {fileID: 100100000, guid: 83c78ede416834d84b4f060978574b81, type: 3}
+--- !u!1 &2414580365037401601 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 83c78ede416834d84b4f060978574b81, type: 3}
+  m_PrefabInstance: {fileID: 3261514178369866576}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8460422904288240430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2414580365037401601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43deec7f451734799bf87e68a1d7427f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
+  swimRadius: 5
